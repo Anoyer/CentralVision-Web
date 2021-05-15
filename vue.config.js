@@ -9,12 +9,13 @@ module.exports = {
   devServer: {
    proxy: {
      '/api': { 
-       target: 'http://10.24.34.207:5000/', 
+       target: 'http://192.168.2.209:5000/',
        changeOrigin: true, 
        ws: true, 
        pathRewrite: { '^/api':  '/api', }
       }
-    }
+    },
+    host: "0.0.0.0"
   },
   css: {
     loaderOptions: {

@@ -1,5 +1,5 @@
 # mobileproject
-
+启动服务前先替换vue.config.js 中target 字段的IP服务器IP
 ## Project setup
 ```
 npm install
