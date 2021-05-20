@@ -3,6 +3,8 @@
 ## Project setup
 ```
 npm install
+# 如果失败
+sudo npm install --unsafe-perm=true --allow-root
 ```
 
 ### Compiles and hot-reloads for development
