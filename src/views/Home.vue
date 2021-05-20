@@ -85,7 +85,7 @@ export default {
     },
   },
   created() {
-    axios.get("/api/table-config").then((res) => {
+    axios.get("/api/table-config/").then((res) => {
       this.config = res.data;
       const group = this.config.table_group;
       for (let item in group) {
